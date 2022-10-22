@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Font Viewer</title>
+</head>
+<body>
+    <nav>
+        <h1>Font Viewer</h1>
+        <hr>
+        <div class="setting">
+            <span>Font: </span>
+            <input oninput="changeInputFont()" placeholder="Segoe UI" spellcheck="false" type="text" name="Font Name" id="fontinput">
+            <span onclick="changeFont()" class="btn">Apply</span>
+        </div>
+    </nav>
+
+    <main>
+        <div class="bar weight100">
+            <span class="info">Thin - Weight 100</span><br>
+            <div class="text">
+                <span class="sampletext" oninput="sampleTextChanged(0)" spellcheck="false" contenteditable >
+                    Not good for a party, not in a car in the middle of a road full of beautiful scenery,
+                    neither good nor bad,
+                    neither right nor wrong,
+                    Neither black nor white,
+                    It's gray. This means the color of reality,
+                    The fact that life is a game,
+                    Your dreams push you forward,
+                    Your memories are pulling you back,
+                    What is left of you?,
+                    You become something in the depth of your thoughts and throughout your life,
+                </span>
+            </div>
+        </div>
+        <hr>
+        <div id="weight100it" class="bar weight100">
+            <span class="info">Thin - Weight 100 - Italic</span><br>
+            <div class="text" style="font-style: italic;">
+                <span class="sampletext" oninput="sampleTextChanged(1)" spellcheck="false" contenteditable>
+                    Not good for a party, not in a car in the middle of a road full of beautiful scenery,
+                    neither good nor bad,
+                    neither right nor wrong,
+                    Neither black nor white,
+                    It's gray. This means the color of reality,
+                    The fact that life is a game,
+                    Your dreams push you forward,
+                    Your memories are pulling you back,
+                    What is left of you?,
+                    You become something in the depth of your thoughts and throughout your life,
+                </span>
+            </div>
+        </div>
+        <hr>
+        <div class="bar weight200">
+            <span class="info">Extra Light - Weight 200</span><br>
+            <div class="text">
+                <span class="sampletext" oninput="sampleTextChanged(2)" spellcheck="false" contenteditable>
+                    Not good for a party, not in a car in the middle of a road full of beautiful scenery,
+                    neither good nor bad,
+                    neither right nor wrong,
+                    Neither black nor white,
+                    It's gray. This means the color of reality,
+                    The fact that life is a game,
+                    Your dreams push you forward,
+                    Your memories are pulling you back,
+                    What is left of you?,
+                    You become something in the depth of your thoughts and throughout your life,
+                </span>
+            </div>
+        </div>
+        <hr>
+        <div class="bar weight200">
+            <span class="info">Extra Light - Weight 200 - Italic</span><br>
+            <div class="text" style="font-style: italic;">
+                <span class="sampletext" oninput="sampleTextChanged(3)" spellcheck="false" contenteditable>
+                    Not good for a party, not in a car in the middle of a road full of beautiful scenery,
+                    neither good nor bad,
+                    neither right nor wrong,
+                    Neither black nor white,
+                    It's gray. This means the color of reality,
+                    The fact that life is a game,
+                    Your dreams push you forward,
+                    Your memories are pulling you back,
+                    What is left of you?,
+                    You become something in the depth of your thoughts and throughout your life,
+                </span>
+            </div>
+        </div>
+        <hr>
+        <div class="bar weight300">
+            <span class="info">Light - Weight 300</span><br>
+            <div class="text">
+                <span class="sampletext" oninput="sampleTextChanged(4)" spellcheck="false" contenteditable>
+                    Not good for a party, not in a car in the middle of a road full of beautiful scenery,
+                    neither good nor bad,
+                    neither right nor wrong,
+                    Neither black nor white,
+                    It's gray. This means the color of reality,
+                    The fact that life is a game,
+                    Your dreams push you forward,
+                    Your memories are pulling you back,
+                    What is left of you?,
+                    You become something in the depth of your thoughts and throughout your life,
+                </span>
+            </div>
+        </div>
+        <hr>
+        <div class="bar weight300">
+            <span class="info">Light - Weight 300 - Italic</span><br>
+            <div class="text" style="font-style: italic;">
+                <span class="sampletext" oninput="sampleTextChanged(5)" spellcheck="false" contenteditable>
+                    Not good for a party, not in a car in the middle of a road full of beautiful scenery,
+                    neither good nor bad,
+                    neither right nor wrong,
+                    Neither black nor white,
+                    It's gray. This means the color of reality,
+                    The fact that life is a game,
+                    Your dreams push you forward,
+                    Your memories are pulling you back,
+                    What is left of you?,
+                    You become something in the depth of your thoughts and throughout your life,
+                </span>
+            </div>
+        </div>
+        <hr>
+        <div class="bar weight400">
+            <span class="info">Regular - Weight 400</span><br>
+            <div class="text">
+                <span class="sampletext" oninput="sampleTextChanged(6)" spellcheck="false" contenteditable>
+                    Not good for a party, not in a car in the middle of a road full of beautiful scenery,
+                    neither good nor bad,
+                    neither right nor wrong,
+                    Neither black nor white,
+                    It's gray. This means the color of reality,
+                    The fact that life is a game,
+                    Your dreams push you forward,
+                    Your memories are pulling you back,
+                    What is left of you?,
+                    You become something in the depth of your thoughts and throughout your life,
+                </span>
+            </div>
+        </div>
+        <hr>
+        <div class="bar weight400">
+            <span class="info">Regular - Weight 400 - Italic</span><br>
+            <div class="text" style="font-style: italic;">
+                <span class="sampletext" oninput="sampleTextChanged(7)" spellcheck="false" contenteditable>
+                    Not good for a party, not in a car in the middle of a road full of beautiful scenery,
+                    neither good nor bad,
+                    neither right nor wrong,
+                    Neither black nor white,
+                    It's gray. This means the color of reality,
+                    The fact that life is a game,
+                    Your dreams push you forward,
+                    Your memories are pulling you back,
+                    What is left of you?,
+                    You become something in the depth of your thoughts and throughout your life,
+                </span>
+            </div>
+        </div>
+        <hr>
+        <div class="bar weight500">
+            <span class="info">Medium - Weight 500</span><br>
+            <div class="text">
+                <span class="sampletext" oninput="sampleTextChanged(8)" spellcheck="false" contenteditable> 
+                    Not good for a party, not in a car in the middle of a road full of beautiful scenery,
+                    neither good nor bad,
+                    neither right nor wrong,
+                    Neither black nor white,
+                    It's gray. This means the color of reality,
+                    The fact that life is a game,
+                    Your dreams push you forward,
+                    Your memories are pulling you back,
+                    What is left of you?,
+                    You become something in the depth of your thoughts and throughout your life,
+                </span>
+            </div>
+        </div>
+        <hr>
+        <div class="bar weight500">
+            <span class="info">Medium - Weight 500 - Italic</span><br>
+            <div class="text" style="font-style: italic;">
+                <span class="sampletext" oninput="sampleTextChanged(9)" spellcheck="false" contenteditable>
+                    Not good for a party, not in a car in the middle of a road full of beautiful scenery,
+                    neither good nor bad,
+                    neither right nor wrong,
+                    Neither black nor white,
+                    It's gray. This means the color of reality,
+                    The fact that life is a game,
+                    Your dreams push you forward,
+                    Your memories are pulling you back,
+                    What is left of you?,
+                    You become something in the depth of your thoughts and throughout your life,
+                </span>
+            </div>
+        </div>
+        <hr>
+        <div class="bar weight600">
+            <span class="info">Semi Bold - Weight 600</span><br>
+            <div class="text">
+                <span class="sampletext" oninput="sampleTextChanged(10)" spellcheck="false" contenteditable>
+                    Not good for a party, not in a car in the middle of a road full of beautiful scenery,
+                    neither good nor bad,
+                    neither right nor wrong,
+                    Neither black nor white,
+                    It's gray. This means the color of reality,
+                    The fact that life is a game,
+                    Your dreams push you forward,
+                    Your memories are pulling you back,
+                    What is left of you?,
+                    You become something in the depth of your thoughts and throughout your life,
+                </span>
+            </div>
+        </div>
+        <hr>
+        <div class="bar weight600">
+            <span class="info">Semi Bold - Weight 600 - Italic</span><br>
+            <div class="text" style="font-style: italic;">
+                <span class="sampletext" oninput="sampleTextChanged(11)" spellcheck="false" contenteditable>
+                    Not good for a party, not in a car in the middle of a road full of beautiful scenery,
+                    neither good nor bad,
+                    neither right nor wrong,
+                    Neither black nor white,
+                    It's gray. This means the color of reality,
+                    The fact that life is a game,
+                    Your dreams push you forward,
+                    Your memories are pulling you back,
+                    What is left of you?,
+                    You become something in the depth of your thoughts and throughout your life,
+                </span>
+            </div>
+        </div>
+        <hr>
+        <div class="bar weight700">
+            <span class="info">Bold - Weight 700</span><br>
+            <div class="text">
+                <span class="sampletext" oninput="sampleTextChanged(12)" spellcheck="false" contenteditable>
+                    Not good for a party, not in a car in the middle of a road full of beautiful scenery,
+                    neither good nor bad,
+                    neither right nor wrong,
+                    Neither black nor white,
+                    It's gray. This means the color of reality,
+                    The fact that life is a game,
+                    Your dreams push you forward,
+                    Your memories are pulling you back,
+                    What is left of you?,
+                    You become something in the depth of your thoughts and throughout your life,
+                </span>
+            </div>
+        </div>
+        <hr>
+        <div class="bar weight700">
+            <span class="info">Bold - Weight 700 - Italic</span><br>
+            <div class="text" style="font-style: italic;">
+                <span class="sampletext" oninput="sampleTextChanged(13)" spellcheck="false" contenteditable>
+                    Not good for a party, not in a car in the middle of a road full of beautiful scenery,
+                    neither good nor bad,
+                    neither right nor wrong,
+                    Neither black nor white,
+                    It's gray. This means the color of reality,
+                    The fact that life is a game,
+                    Your dreams push you forward,
+                    Your memories are pulling you back,
+                    What is left of you?,
+                    You become something in the depth of your thoughts and throughout your life,
+                </span>
+            </div>
+        </div>
+        <hr>
+        <div class="bar weight800">
+            <span class="info">Extra Bold - Weight 800</span><br>
+            <div class="text">
+                <span class="sampletext" oninput="sampleTextChanged(14)" spellcheck="false" contenteditable>
+                    Not good for a party, not in a car in the middle of a road full of beautiful scenery,
+                    neither good nor bad,
+                    neither right nor wrong,
+                    Neither black nor white,
+                    It's gray. This means the color of reality,
+                    The fact that life is a game,
+                    Your dreams push you forward,
+                    Your memories are pulling you back,
+                    What is left of you?,
+                    You become something in the depth of your thoughts and throughout your life,
+                </span>
+            </div>
+        </div>
+        <hr>
+        <div class="bar weight800">
+            <span class="info">Extra Bold - Weight 800 - Italic</span><br>
+            <div class="text" style="font-style: italic;">
+                <span class="sampletext" oninput="sampleTextChanged(15)" spellcheck="false" contenteditable>
+                    Not good for a party, not in a car in the middle of a road full of beautiful scenery,
+                    neither good nor bad,
+                    neither right nor wrong,
+                    Neither black nor white,
+                    It's gray. This means the color of reality,
+                    The fact that life is a game,
+                    Your dreams push you forward,
+                    Your memories are pulling you back,
+                    What is left of you?,
+                    You become something in the depth of your thoughts and throughout your life,
+                </span>
+            </div>
+        </div>
+        <hr>
+        <div class="bar weight900">
+            <span class="info">Black - Weight 900</span><br>
+            <div class="text">
+                <span class="sampletext" oninput="sampleTextChanged(16)" spellcheck="false" contenteditable>
+                    Not good for a party, not in a car in the middle of a road full of beautiful scenery,
+                    neither good nor bad,
+                    neither right nor wrong,
+                    Neither black nor white,
+                    It's gray. This means the color of reality,
+                    The fact that life is a game,
+                    Your dreams push you forward,
+                    Your memories are pulling you back,
+                    What is left of you?,
+                    You become something in the depth of your thoughts and throughout your life,
+                </span>
+            </div>
+        </div>
+        <hr>
+        <div class="bar weight900">
+            <span class="info">Black - Weight 900 - Italic</span><br>
+            <div class="text" style="font-style: italic;">
+                <span class="sampletext" oninput="sampleTextChanged(17)" spellcheck="false" contenteditable>
+                    Not good for a party, not in a car in the middle of a road full of beautiful scenery,
+                    neither good nor bad,
+                    neither right nor wrong,
+                    Neither black nor white,
+                    It's gray. This means the color of reality,
+                    The fact that life is a game,
+                    Your dreams push you forward,
+                    Your memories are pulling you back,
+                    What is left of you?,
+                    You become something in the depth of your thoughts and throughout your life,
+                </span>
+            </div>
+        </div>
+    </main>
+    
+    <div class="jukebox">
+        <div class="slide weight100">
+            <span class="fonttitle"></span><br>
+            <span> Weight 100 </span>
+            <br><span> Thin </span>
+            <br><span style="font-style: italic;"> Italic </span>
+        </div>
+        <div class="slide weight200">
+            <span class="fonttitle"></span><br>
+            <span> Weight 200 </span>
+            <br><span> Extra Light </span>
+            <br><span style="font-style: italic;"> Italic </span>
+        </div>
+        <div class="slide weight300">
+            <span class="fonttitle"></span><br>
+            <span> Weight 300 </span>
+            <br><span> Light </span>
+            <br><span style="font-style: italic;"> Italic </span>
+        </div>
+        <div class="slide weight400">
+            <span class="fonttitle"></span><br>
+            <span> Weight 400 </span>
+            <br><span> Regular </span>
+            <br><span style="font-style: italic;"> Italic </span>
+        </div>
+        <div class="slide weight500">
+            <span class="fonttitle"></span><br>
+            <span> Weight 500 </span>
+            <br><span> Medium </span>
+            <br><span style="font-style: italic;"> Italic </span>
+        </div>
+        <div class="slide weight600">
+            <span class="fonttitle"></span><br>
+            <span> Weight 600 </span>
+            <br><span> Semi Bold </span>
+            <br><span style="font-style: italic;"> Italic </span>
+        </div>
+        <div class="slide weight700">
+            <span class="fonttitle"></span><br>
+            <span> Weight 700 </span>
+            <br><span> Bold </span>
+            <br><span style="font-style: italic;"> Italic </span>
+        </div>
+        <div class="slide weight800">
+            <span class="fonttitle"></span><br>
+            <span> Weight 800 </span>
+            <br><span> Extra Bold </span>
+            <br><span style="font-style: italic;"> Italic </span>
+        </div>
+        <div class="slide weight900">
+            <span class="fonttitle"></span><br>
+            <span> Weight 900 </span>
+            <br><span> Black </span>
+            <br><span style="font-style: italic;"> Italic </span>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
